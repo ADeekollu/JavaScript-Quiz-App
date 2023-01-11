@@ -92,3 +92,41 @@ h2 {
 .fa-crown {
     margin-left: .5rem;
 }
+
+.end-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 5rem;
+}
+
+#end-text {
+    color:antiquewhite ;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    width: 10rem;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0 .5rem 1.5rem rgb(39, 39, 222);
+}
+
+#username {
+    margin-bottom: 2rem;
+    outline: none;
+}
+
+#saveScoreBtn {
+    border: none;
+}
+
+.fa-home {
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: antiquewhite;
+}
