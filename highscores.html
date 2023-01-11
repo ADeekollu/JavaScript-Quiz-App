@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Save Score</title>
+    <title>High Score</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="highscores.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
-        <div id="end" class="flex-center flex-column">
-            <h1 id="finalScore">0</h1>
-            <form class="end-form-container">
-                <h2 id="end-text">Save Score!</h2>
-                <input type="text" name="name" id="username" placeholder="Enter Your Name">
-                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
-            </form>
-            <a href="/game.html" class="btn">Play Again</a>
+        <div id="highScores" class="flex-center flex-column">
+            <h1 id="finalScore">Leaderboard</h1>
+            <ul id="highScoresList"></ul>
             <a href="/" class="btn">Go Home<i class="fas fa-home"></i></a>
         </div>
     </div>
-    <script src="end.js"></script>
+    
 </body>
 </html>
